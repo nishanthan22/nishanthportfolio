@@ -6,19 +6,24 @@ import Projects from "./components/Projects";
 import Reviews from "./components/Reviews";
 import Certifications from "./components/Certifications";
 import Footer from "./components/Footer";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <>
-      <Intro/>
-      <About/>
-      <Experience/>
-      <Education/>
-      <Projects/>
-      <Reviews/>
-      <Certifications/>
-      <Footer/>
-    </>
+      <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Intro />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/education" element={<Education />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/reviews" element={<Reviews />} />
+        <Route path="/certifications" element={<Certifications />} />
+        <Route path="/footer" element={<Footer />} />
+      </Routes>
+    </Router>
     
   );
 }
