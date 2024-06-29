@@ -20,7 +20,6 @@ function Intro() {
   };
 
   return (
-    <>
     <div className="home-container">
       <div className="user-picture">
         <img src={user.picture} alt="User" />
@@ -43,8 +42,7 @@ function Intro() {
         
       </div>
     </div>
-    
-  </>
+
   );
 }
 

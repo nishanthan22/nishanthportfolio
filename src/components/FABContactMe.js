@@ -1,17 +1,19 @@
-import * as React from 'react';
-import Box from '@mui/material/Box';
-import Fab from '@mui/material/Fab';
-import NavigationIcon from '@mui/icons-material/Navigation';
-import TelegramIcon from '@mui/icons-material/Telegram';
+// src/components/FloatingActionButton.js
+import React from 'react';
 import '../styles/FABContactMe.css';
+import TelegramIcon from '@mui/icons-material/Telegram';
 
-export default function FABContactMe() {
+const FABContactMe = () => {
+  const handleClick = () => {
+    alert('Contact Me button clicked!');
+    // Implement your logic here, e.g., show a contact form or navigate to a contact page
+  };
+
   return (
-    <Box sx={{ '& > :not(style)': { m: 1 } }}>
-      <Fab className="fab" variant="extended"  color="primary">
-        <TelegramIcon sx={{ mr: 1 }} />
-        Contact me
-      </Fab>
-    </Box>
+    <button className="fab" onClick={handleClick}>
+      <TelegramIcon/> Contact me
+    </button>
   );
-}
+};
+
+export default FABContactMe;
