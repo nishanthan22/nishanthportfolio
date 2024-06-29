@@ -6,13 +6,16 @@ import Projects from "./components/Projects";
 import Reviews from "./components/Reviews";
 import Certifications from "./components/Certifications";
 import Footer from "./components/Footer";
+import FABContactMe from "./components/FABContactMe"
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
       <Router>
       <Navbar />
+      
       <Routes>
         <Route path="/" element={<Intro />} />
         <Route path="/about" element={<About />} />
@@ -23,8 +26,9 @@ function App() {
         <Route path="/certifications" element={<Certifications />} />
         <Route path="/footer" element={<Footer />} />
       </Routes>
+      <FABContactMe/>
+      
     </Router>
-    
   );
 }
 

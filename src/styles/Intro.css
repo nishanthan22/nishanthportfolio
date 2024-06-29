@@ -3,12 +3,13 @@
   flex-wrap: wrap;
   align-items: flex-start;
   padding: 20px;
-  background-color: #DFF6FF;
+  background-color: rgb(17, 24, 39);
 }
 
 .user-picture {
   flex: 1;
   margin-right: 22px;
+  margin-top: 2.5em;
 }
 
 .user-picture img {
@@ -21,34 +22,36 @@
 .user-details {
   flex: 2;
   min-width: 100px;
-  margin-top: 90px;
-  color: #06283D;
+  margin-top: 180px;
+  margin-right: 20px;
+  color: #DFF6FF;
   display: block;
-  text-align: center;
 }
 
 .user-details h1 {
   font-size: 3em;
+  text-align: center;
+  color: #47B5FF;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-.social-media-links {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  margin-top: -15px;
-  margin-left: 20px;
-}
-
-.social-media-links a {
-  font-size: 1.5em;
-}
-
 .user-bio {
   flex: 1 100%;
   text-align: center;
-  margin-top: 20px;
-  font-size: 1.5em;
+  margin: 15px;
+  font-size: 19px;
 }
+.social-media-links {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 2%;
+}
+
+.social-media-links a {
+  font-size: 2em;
+}
+
+
 
 .resume-button {
   display: flex;
