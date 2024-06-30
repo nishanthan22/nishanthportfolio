@@ -22,12 +22,37 @@
 }
 
 .tech-stack {
-  text-align: right;
-  margin-top: 20px;
+  display: flex;
+  justify-content: space-between; 
 }
 
-.tech-stack iframe{
+.dev-icons {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; 
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.dev-icons img {
+  max-width: 100%; 
+  height: 35pt; 
+  margin: 20px;
+}
+.dev-icons i {
+  max-width: 100%;
+  margin: 20px;
+  font-size: 35pt;
+}
+.dev-animation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.dev-animation iframe {
   height: 200pt;
   margin: 20pt;
- 
 }
