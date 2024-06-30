@@ -1,4 +1,5 @@
 .about-container {
-    display: flex;
+    display: block;
+    color: #DFF6FF;
     background-color: rgb(17, 24, 39);
   }
