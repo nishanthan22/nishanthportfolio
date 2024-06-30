@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   align-items: flex-start;
   padding: 20px;
-  background-color: rgb(17, 24, 39);
+  background-color: #080D1A;
 }
 
 .user-picture {
@@ -51,7 +51,10 @@
   font-size: 2em;
 }
 
-
+.midline {
+  text-align: center;
+  margin: -30px;
+}
 
 .resume-button {
   display: flex;
@@ -85,3 +88,5 @@
     margin-top: 20px;
   }
 }
+
+

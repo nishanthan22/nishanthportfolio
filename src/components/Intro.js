@@ -39,8 +39,11 @@ function Intro() {
               <a><SocialIcon target="_blank" url="https://leetcode.com/u/nishanth22_/"/></a>
               <a><SocialIcon target="_blank" url="https://stackoverflow.com/users/15491669/nishanthan-ravichandran"/></a>
         </div>
-        
+        <div className="midline">
+        <iframe src="https://lottie.host/embed/5dd32279-f0e1-4e22-9765-51044d6b33af/63Bz3zd0ST.json"></iframe>
+        </div>
       </div>
+      
     </div>
 
   );

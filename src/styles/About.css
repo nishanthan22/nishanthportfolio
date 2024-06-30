@@ -1,5 +1,33 @@
 .about-container {
-    display: block;
     color: #DFF6FF;
-    background-color: rgb(17, 24, 39);
-  }
+    background-color: #080D1A;
+    padding: 20px;
+    height: fit-content;
+    font-size: larger;
+}
+.text-area {
+  display: flex;
+  margin: 25px;
+}
+
+.text-area p {
+  align-content: center;
+  text-align: justify;
+  padding: 20px;
+}
+
+.vertical-block {
+  color:  #FC6736;
+  border-radius: 8px;
+}
+
+.tech-stack {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.tech-stack iframe{
+  height: 200pt;
+  margin: 20pt;
+ 
+}
