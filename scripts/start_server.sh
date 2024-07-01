@@ -1,7 +1,7 @@
 #!/bin/bash
 echo Starting server
 
-cd /var/www/
+cd /app
 echo Application build in progress
 sudo npm run build
 
